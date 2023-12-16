@@ -9,15 +9,15 @@ class Review:
         customer.reviews.append(self)
         restaurant.reviews.append(self)
 
-    # def rating(self):
-    #     return self.rating
+    def rating(self):
+        return self.rating
 
-    # @classmethod
-    # def all(cls):
-    #     return cls.all_reviews
+    @classmethod
+    def all(cls):
+        return cls.all_reviews
 
-    # def customer(self):
-    #     return self.customer
+    def customer(self):
+        return self.customer
 
-    # def restaurant(self):
-    #     return self.restaurant
+    def restaurant(self):
+        return self.restaurant
